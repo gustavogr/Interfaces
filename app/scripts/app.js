@@ -48,12 +48,12 @@ angular
       })
       .when('/profile/edit', {
         templateUrl: 'views/edit.html',
-        controller: 'EditCtrl',
+        controller: 'ProfileCtrl',
         controllerAs: 'edit'
       })
       .when('/profile/favorite', {
         templateUrl: 'views/favorite.html',
-        controller: 'FavoriteCtrl',
+        controller: 'ProfileCtrl',
         controllerAs: 'favorite'
       })
       .otherwise({
