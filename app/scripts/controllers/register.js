@@ -2,16 +2,19 @@
 
 /**
  * @ngdoc function
- * @name interfacesApp.controller:AboutCtrl
+ * @name interfacesApp.controller:registerCtrl
  * @description
- * # AboutCtrl
+ * # registerCtrl
  * Controller of the interfacesApp
  */
 angular.module('interfacesApp')
-  .controller('AboutCtrl', function () {
+  .controller('registerCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
+    $rootScope.showLogged = function(){
+    	return false;
+    };
   });

@@ -2,20 +2,16 @@
 
 /**
  * @ngdoc function
- * @name interfacesApp.controller:MainCtrl
+ * @name interfacesApp.controller:ProfileCtrl
  * @description
- * # MainCtrl
+ * # ProfileCtrl
  * Controller of the interfacesApp
  */
 angular.module('interfacesApp')
-  .controller('MainCtrl', function ($rootScope) {
+  .controller('ProfileCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
-    $rootScope.showLogged = function(){
-    	return true;
-    };
-
   });

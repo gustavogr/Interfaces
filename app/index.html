@@ -26,7 +26,8 @@
       <div class="row">
         <div class="navbar-header col-md-9 col-md-offset-2">
           <a class="navbar-brand" href="#">AutoCar</a>
-          <div class="dropdown pull-right">
+
+          <div class="dropdown pull-right" ng-if="showLogged()">
             <button class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
               <i class="fa fa-user fa-lg"></i>
               <span class="caret"></span>
@@ -41,9 +42,9 @@
     </div>
 
     <div id="wrapper">
-        <div id="sidebar-wrapper">
+        <div id="sidebar-wrapper" ng-if="showLogged()">
             <ul class="sidebar-nav">
-                <li><a href="#"><i class="fa fa-home fa-2x opciones-side"></i></a></li>
+                <li><a href="#/"><i class="fa fa-home fa-2x opciones-side"></i></a></li>
                 <li><a href="#"><i class="fa fa-car fa-2x opciones-side"></i></a></li>
                 <li><a href="#"><i class="fa fa-map-o fa-2x opciones-side"></i></a></li>
                 <li><a href="#"><i class="fa fa-star-o fa-2x opciones-side"></i></a></li>
@@ -81,7 +82,9 @@
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/controllers/login.js"></script>
+        <script src="scripts/controllers/profile.js"></script>
+        <script src="scripts/controllers/register.js"></script>
         <!-- endbuild -->
 </body>
 </html>
