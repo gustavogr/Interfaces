@@ -40,36 +40,27 @@
       </div>
     </div>
 
-    <!-- <div class="row"> -->
-      <div class="col-md-1 crap">
-        <div class="row">
-          <div class="col-md-4 col-md-offset-1">
-            <a href="#"><i class="fa fa-home fa-2x opciones-side"></i></a>
-          </div>
+    <div id="wrapper">
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li><a href="#"><i class="fa fa-home fa-2x opciones-side"></i></a></li>
+                <li><a href="#"><i class="fa fa-car fa-2x opciones-side"></i></a></li>
+                <li><a href="#"><i class="fa fa-map-o fa-2x opciones-side"></i></a></li>
+                <li><a href="#"><i class="fa fa-star-o fa-2x opciones-side"></i></a></li>
+            </ul>
         </div>
-        <div class="row">
-          <div class="col-md-4 col-md-offset-1">
-            <a href="#"><i class="fa fa-car fa-2x opciones-side"></i></a>
-          </div>
+        <div id="page-content-wrapper">
+            <div class="page-content">
+                <div class="container">
+                    <div ng-view=""></div>
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="col-md-4 col-md-offset-1">
-            <a href="#"><i class="fa fa-map-o fa-2x opciones-side"></i></a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-md-offset-1">
-            <a href="#"><i class="fa fa-star-o fa-2x opciones-side"></i></a>
-          </div>
-        </div>
-      </div>
-    <!-- </div> -->
-
-
-
-    <div class="container">
-    <div ng-view=""></div>
     </div>
+
+
+
+
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
