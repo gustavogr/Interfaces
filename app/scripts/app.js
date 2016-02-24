@@ -41,6 +41,16 @@ angular
         controller: 'RegisterCtrl',
         controllerAs: 'register'
       })
+      .when('/profile', {
+        templateUrl: 'views/profile.html',
+        controller: 'ProfileCtrl',
+        controllerAs: 'profile'
+      })
+      .when('/profile/edit', {
+        templateUrl: 'views/edit.html',
+        controller: 'EditCtrl',
+        controllerAs: 'edit'
+      })
       .otherwise({
         redirectTo: '/'
       });
