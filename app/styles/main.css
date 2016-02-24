@@ -13,6 +13,7 @@
   transition: all 0.4s ease 0s;
 }
 
+<<<<<<< HEAD
 #sidebar-wrapper {
   margin-left: -250px;
   left: 250px;
@@ -59,4 +60,15 @@
       transition: all 0.4s ease 0s;
     }
 
+=======
+.menuprin {
+   /*margin: 50px 0px 0px 0px;*/
+   margin-top: 75px;
+   margin-left: 70px;
+}
+
+#Input1 {
+  width: 30%;
+  margin: 0px 35%;
+>>>>>>> 34c96a971275f634e80246d115a852d4fde13d45
 }
