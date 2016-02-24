@@ -51,6 +51,11 @@ angular
         controller: 'EditCtrl',
         controllerAs: 'edit'
       })
+      .when('/profile/favorite', {
+        templateUrl: 'views/favorite.html',
+        controller: 'FavoriteCtrl',
+        controllerAs: 'favorite'
+      })
       .otherwise({
         redirectTo: '/'
       });
