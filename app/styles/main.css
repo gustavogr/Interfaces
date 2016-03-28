@@ -4,7 +4,7 @@
 }
 
 #dropdownMenu1 {
-  background-color: transparent;
+  background-color: #f3f3f3;
   padding: 15px 12px;
 }
 
@@ -25,10 +25,12 @@
 #wrapper {
   transition: all 0.4s ease 0s;
 }
-
+#headbar-wrapper{
+  background-color: #f3f3f3;
+}
 #sidebar-wrapper {
   width: 65px;
-  background: #CCC;
+  background: rgba(48, 106, 140, 0.41);
   position: fixed;
   height: 100%;
   overflow-y: auto;
@@ -36,6 +38,12 @@
   transition: all 0.4s ease 0s;
   border-style: solid;
   border-width: 1px;
+  border-color: rgba(48, 106, 140, 0.41);
+}
+
+#main-link{
+  color: black;
+  font-size: 24px;
 }
 
 #page-content-wrapper {
@@ -55,6 +63,9 @@
   margin-bottom:  0px;
 }
 
+.ng-scope{
+  background-color: #f8f8f8;
+}
 @media (max-width:767px) {
 
     #wrapper {
