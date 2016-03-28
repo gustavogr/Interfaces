@@ -8,10 +8,13 @@
  * Controller of the interfacesApp
  */
 angular.module('interfacesApp')
-  .controller('ProfileCtrl', function () {
+  .controller('ProfileCtrl', function ($rootScope) {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
+    $rootScope.showLogged = function(){
+    	return true;
+    };
   });
