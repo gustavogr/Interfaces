@@ -63,23 +63,23 @@ angular
       })
       .when('/car', {
         templateUrl: 'views/car.html',
-        controller: 'ProfileCtrl',
-        controllerAs: 'profile'
+        controller: 'CarCtrl',
+        controllerAs: 'car'
       })
       .when('/car/music', {
         templateUrl: 'views/car_music.html',
-        controller: 'ProfileCtrl',
-        controllerAs: 'profile'
+        controller: 'CarCtrl',
+        controllerAs: 'car'
       })
       .when('/car/comfort', {
         templateUrl: 'views/car_comfort.html',
-        controller: 'ProfileCtrl',
-        controllerAs: 'profile'
+        controller: 'CarCtrl',
+        controllerAs: 'car'
       })
       .when('/car/destiny', {
         templateUrl: 'views/car_destiny.html',
-        controller: 'ProfileCtrl',
-        controllerAs: 'profile'
+        controller: 'CarCtrl',
+        controllerAs: 'car'
       })
       .otherwise({
         redirectTo: '/'
