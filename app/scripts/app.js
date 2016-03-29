@@ -56,6 +56,11 @@ angular
         controller: 'ProfileCtrl',
         controllerAs: 'favorite'
       })
+      .when('/pruebas', {
+        templateUrl: 'views/prueba.html',
+        controller: 'ProfileCtrl',
+        controllerAs: 'profile'
+      })
       .otherwise({
         redirectTo: '/'
       });

@@ -4,8 +4,10 @@
 }
 
 #dropdownMenu1 {
-  background-color: #f3f3f3;
+  color: white;
+  background-color: #286090;
   padding: 15px 12px;
+  border-radius: 0px;
 }
 
 #Input1 {
@@ -14,7 +16,7 @@
 }
 
 .opciones-side {
-  color: #000;
+  color: black;
   padding: 15px 0px 15px 15px;
 }
 
@@ -26,8 +28,9 @@
   transition: all 0.4s ease 0s;
 }
 #headbar-wrapper{
-  background-color: #f3f3f3;
+  background-color: #286090;
 }
+
 #sidebar-wrapper {
   width: 65px;
   background: rgba(48, 106, 140, 0.41);
@@ -42,7 +45,7 @@
 }
 
 #main-link{
-  color: black;
+  color: white;
   font-size: 24px;
 }
 
