@@ -61,6 +61,11 @@ angular
         controller: 'ProfileCtrl',
         controllerAs: 'order'
       })
+      .when('/traffic', {
+        templateUrl: 'views/traffic.html',
+        controller: 'ProfileCtrl',
+        controllerAs: 'traffic'
+      })
       .when('/car', {
         templateUrl: 'views/car.html',
         controller: 'ProfileCtrl',
