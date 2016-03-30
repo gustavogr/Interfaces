@@ -17,4 +17,10 @@ angular.module('interfacesApp')
     $rootScope.showLogged = function(){
       return false;
     };
+
+
+
+    $('#validation').on('hidden.bs.modal', function (e) {
+      window.location.href='#/car/'
+    })
   });
