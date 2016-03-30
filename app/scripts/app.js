@@ -56,10 +56,15 @@ angular
         controller: 'ProfileCtrl',
         controllerAs: 'favorite'
       })
-      .when('/pruebas', {
-        templateUrl: 'views/prueba.html',
+      .when('/order', {
+        templateUrl: 'views/order.html',
         controller: 'ProfileCtrl',
-        controllerAs: 'profile'
+        controllerAs: 'order'
+      })
+      .when('/traffic', {
+        templateUrl: 'views/traffic.html',
+        controller: 'ProfileCtrl',
+        controllerAs: 'traffic'
       })
       .when('/car', {
         templateUrl: 'views/car.html',
